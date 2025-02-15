@@ -1,11 +1,7 @@
 { inputs, ... }: {
   home-manager = {
     extraSpecialArgs = { inherit inputs; };
-    users = {
-      modules = [
-        ./../hosts/desktop/home.nix
-        inputs.self.outputs.homeManagerModules.default
-      ];
-    };
+    sharedModules = [inputs.self.outputs.homeManagerModules.default];
+    users.sproink = ./../hosts/desktop/home.nix;
   };
 }
