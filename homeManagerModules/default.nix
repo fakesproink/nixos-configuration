@@ -6,7 +6,6 @@
     ./firefox/firefox.nix
     ./hyprland/hyprland.nix
     ./thunar/thunar.nix
-    ./zeditor/zeditor.nix
     ./waybar/waybar.nix
     ./nwg/nwg.nix
     ./hyprshot/hyprshot.nix
