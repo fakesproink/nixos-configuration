@@ -32,7 +32,6 @@
   firefox.enable = true;
   hyprland.enable = true;
   thunar.enable = true;
-  zeditor.enable = true;
   waybar.enable = true;
   nwg.enable = true;
   hyprshot.enable = true;
